@@ -1,0 +1,19 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Large wordlists (downloadable via README instructions)
+passwords_100k.txt
+*.txt
+
+# Built filter artifacts (optional, generated from build_filter.py)
+*.bloom
